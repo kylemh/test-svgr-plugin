@@ -1,21 +1,21 @@
 import Head from 'next/head';
 import Link from 'next/Link';
-import { ReactComponent as Noodle } from '../images/noodle.svg';
+import src from '../images/noodle2.svg';
 import styles from 'styles/Home.module.css';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Test | Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <Noodle className={styles.noodle} />
+        <img src={src} alt="" className={styles.noodle} />
 
-        <Link href="/test">
-          <a className={styles.link}>Go to svg as img src example</a>
+        <Link href="/">
+          <a className={styles.link}>Go back</a>
         </Link>
       </main>
     </div>
