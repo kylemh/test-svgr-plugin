@@ -16,6 +16,15 @@
   align-items: center;
 }
 
+.noodle {
+  height: 100px;
+  width: 100px;
+}
+
+.noodle path {
+  fill: red;
+}
+
 .footer {
   width: 100%;
   height: 100px;
