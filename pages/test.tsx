@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Link from 'next/Link';
+import Link from 'next/link';
 import src from '../images/noodle2.svg';
 import styles from 'styles/Home.module.css';
 
